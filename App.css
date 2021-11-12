@@ -1,0 +1,125 @@
+.App {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App button {
+  width: 80px;
+  height: 40px;
+  border-radius: 0.35rem;
+  font-size: 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.App .del-btn {
+  width: 90px;
+  height: 35px;
+  margin-top: 30px;
+  border-radius: 0.35rem;
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.App .task {
+}
+
+.App .checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.line-through {
+  text-decoration: line-through;
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: 900;
+}
+
+.Pbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 550px;
+  width: 400px;
+  margin-top: 15px;
+}
+
+.border {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60px;
+  background-color: lightgray;
+  border-radius: 0.35rem;
+}
+
+.Pbox > input {
+  width: 200px;
+  height: 35px;
+  border-radius: 0.35rem;
+  border: none;
+  background-color: lightgray;
+}
+
+.App label {
+  color: gray;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.App input {
+  border-radius: 0.5rem;
+  width: 90%;
+  border: 1px solid transparent;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: monospace;
+  background-color: lightgray;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: rebeccapurple;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
